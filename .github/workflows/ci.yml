@@ -10,11 +10,11 @@ jobs:
       fail-fast: false
       matrix:
         os:
-          - ubuntu-22.04
+          - ubuntu-20.04
           - windows-2019
 
         include:
-          - os: ubuntu-22.04
+          - os: ubuntu-20.04
             os_short: linux
           - os: windows-2019
             os_short: windows
